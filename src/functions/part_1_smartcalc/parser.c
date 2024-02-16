@@ -264,21 +264,11 @@ void extract_and_store_from_stack(Stack* stack, char* arr,
  */
 void delete_brackets(char* str, size_t i) {
   size_t j = i + 1;
-  size_t count = 0;
-
   // Удаление символов до открытой скобки
   while (str[j] != '(') {
     str[j] = ' ';
     j++;
-    count++;
   }
-
-  // // Сдвиг символов после открывающей скобки
-  // size_t k = j - count;
-  // while (str[k] != ')') {
-  //     str[k] = str[k + count];
-  //     count--;
-  // }
 }
 
 /**
