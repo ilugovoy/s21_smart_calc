@@ -48,16 +48,16 @@ Makefile с набором стандартных целей: `all`, `install`, 
 
 ### Отчёт о покрытии 
 ``` 
-- make gcov_report		собрать отчёт о покрытии
-- make open_report		открыть отчёт о покрытии
+- make gcov_report    собрать отчёт о покрытии
+- make open_report    открыть отчёт о покрытии
 ```
 
 ### Проверки  
 ```
-- make check			проверить зависимости
-- make valgrind		проверить утечки и джампы
-- make cpp				проверить с помощью cppcheck
-- make style			проверить соответствие стилю Google
+- make check        проверить зависимости
+- make valgrind     проверить утечки и джампы
+- make cpp          проверить с помощью cppcheck
+- make style        проверить соответствие стилю Google
 ```
 
 > Цель `dvi` в Make-файле используется для создания DVI-файлов из TeXinfo-документации.  
